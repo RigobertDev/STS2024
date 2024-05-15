@@ -983,6 +983,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
+/* video Section
+--------------------------------*/
+
+.video-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.video-container iframe {
+  width: 48%; /* Ajusta el ancho de cada video */
+  height: 300px; /* Ajusta la altura de los videos según sea necesario */
+}
+
 /* Contact Section
 --------------------------------*/
 
