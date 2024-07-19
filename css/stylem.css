@@ -848,9 +848,6 @@ p {
   }
 }
 
-
-
-
 /* Facts Section
 --------------------------------*/
 
@@ -905,6 +902,41 @@ p {
 .dollar-sign::before {
   content: "$";
 }
+
+/* Media queries para hacerlo responsivo */
+@media (max-width: 768px) {
+  #facts {
+    padding: 30px 0;
+    background-attachment: scroll; /* Evita el problema del fondo fijo en móviles */
+  }
+
+  #facts .counters span {
+    font-size: 36px;
+  }
+
+  #facts .counters p {
+    font-size: 16px;
+  }
+
+  #facts .facts-img {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  #facts {
+    padding: 20px 0;
+  }
+
+  #facts .counters span {
+    font-size: 28px;
+  }
+
+  #facts .counters p {
+    font-size: 14px;
+  }
+}
+
 
 /* Estilos del botón flotante de WhatsApp */
 .whatsapp-float {
