@@ -194,6 +194,13 @@ h6 {
   font-weight: 700;
 }
 
+.texto-sombra {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 #intro p {
   width: 80%;
   margin: 0 auto 30px auto;
